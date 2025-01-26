@@ -113,18 +113,18 @@ function App() {
 
             <div className={`fixed inset-0 bg-black/95 backdrop-blur-lg md:hidden transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'}`}>
               <div className='flex flex-col justify-center items-center space-y-8 h-full text-2xl'>
-                <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>Accueil</a>
-                <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>Prix</a>
+                <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>Home</a>
+                <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>Price</a>
                 <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>Services</a>
-                <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>A propos</a>
+                <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>About</a>
                 <a href='#' className='hover:text-green-400 nav-link' onClick={() => setIsMenuOpen(false)}>Contact</a>
               </div>
             </div>
             <div className='md:flex space-x-10 hidden font-medium'>
-              <a href='#' className='hover:text-green-400 nav-link'>Accueil</a>
-              <a href='#' className='hover:text-green-400 nav-link'>Prix</a>
+              <a href='#' className='hover:text-green-400 nav-link'>Home</a>
+              <a href='#' className='hover:text-green-400 nav-link'>Price</a>
               <a href='#' className='hover:text-green-400 nav-link'>Services</a>
-              <a href='#' className='hover:text-green-400 nav-link'>A propos</a>
+              <a href='#' className='hover:text-green-400 nav-link'>About</a>
               <a href='#' className='hover:text-green-400 nav-link'>Contact</a>
             </div>  
           </div>
@@ -136,18 +136,17 @@ function App() {
             <div className='mb-8 md:mb-0 w-full md:w-1/2'>
               <div className='flex flex-col justify-center'>
                 <h1 className='relative mb-4 font-bold text-4xl md:text-5xl'>
-                  <span className='block title-line'>Révolutionnez votre{' '}</span>
-                  <span className='block title-line'><span className='text-green-400'>entreprise</span></span>
-                  <span className='block title-line'>avec le pouvoir</span>
-                  <span className='block title-line'>du <span className='text-green-400'>cloud</span>.</span>
+                  <span className='block title-line'>Revolutionize your{' '}</span>
+                  <span className='block title-line'><span className='text-green-400'>business</span></span>
+                  <span className='block title-line'>with the power</span>
+                  <span className='block title-line'>of the<span className='text-green-400'>cloud</span>.</span>
                 </h1>
                 <p className='mb-8 w-full md:w-[90%] text-gray-300 text-lg md:text-xl description '>
-                  Des solutions cloud intelligentes et évolutives pour
-                  vous aider à atteindre de nouveaux sommets.
+                Intelligent and scalable cloud solutions to help you reach new heights.
                 </p>
                 <div className='flex md:flex-row flex-col space-y-4 md:space-x-9 md:space-y-0'>
                   <button className=' button relative bg-green-400 px-6 py-2 rounded-lg w-full md:w-[200px] font-medium text-xl transition-all duration-300'>
-                    Commencer
+                    Start
                   </button>
                   <button className=' button relative border-2 border-green-400 hover:bg-green-400 px-6 py-2 rounded-lg w-full md:w-[200px] font-medium text-xl transition-all duration-300'>
                     Contact
@@ -155,11 +154,11 @@ function App() {
                 </div>
                 <div className='flex md:flex-row flex-col justify-around items-center border-[#808080] border-2 bg-[#808080]/50 backdrop-blur-xl mx-4 mt-10 mx-md:mr-0 p-4 md:p-2 rounded-lg instructions '>
                   <div className='mb-4 md:mb-0 text-left'>
-                    <h3 className='mb-2 font-bold text-green-400 text-xl md:text-2xl'>Interagissez avec le globe</h3>
+                    <h3 className='mb-2 font-bold text-green-400 text-xl md:text-2xl'>Interact with the globe.</h3>
                     <ul className='text-base text-white md:text-lg'>
-                      <li>Survolez les points</li>
-                      <li>Cliquez sur les points pour voir les détails</li>
-                      <li>Faites pivoter le globe avec la souris</li>
+                      <li>Hover over the points.</li>
+                      <li>Click on the points to see the details.</li>
+                      <li>Rotate the globe with the mouse.</li>
                     </ul>
                   </div>
                   <img src={dataImg} alt='imgInfo' className='w-[100px] md:w-[150]' />
